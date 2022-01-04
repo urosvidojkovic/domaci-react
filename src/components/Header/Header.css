@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
+  background-color: beige;
+  height: 55px;
+}
+
+.nav-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
