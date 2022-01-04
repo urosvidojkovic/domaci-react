@@ -32,9 +32,9 @@ export default function ProductDetailsForm(props) {
                 total: amount * product.price
             });
 
-            console.log(data.cart);
+            alert("The product is added to the cart.");
         }else{
-            alert('Invalid input. Please try again.')
+            alert('Invalid input. Please try again.');
         }
     }
 
